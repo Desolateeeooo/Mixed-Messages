@@ -3,9 +3,9 @@ import clipboard from 'clipboardy';
 import { charactersDatabase } from './db.js';
 
 const FgRed = '\x1b[31m';
+const FgGreen = '\x1b[32m';
 const Reset = '\x1b[0m';
 const Underscore = '\x1b[4m';
-const FgGreen = '\x1b[32m';
 
 const APPLICATION_STATE = { lastMessage: null };
 
